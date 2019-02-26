@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Place of visit</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="entry-form">
+            <h1>Recent Place you've been</h1>
+            <form id="form-input">
+              <label for="country">Country</label>
+              <input type="text" name="" class="form-control" id="country">
+              <label for="city">City</label>
+              <input type="text" class="form-control" id="city">
+              <label for="location">Location</label>
+              <input type="text" class="form-control" id="location">
+              <label for="date">Year</label>
+              <input type="date" class="form-control" id="date">
+              <button type="submit" class="btn btn-primary">ADD</button>
+            </form>
+          </div>
+          <div class="recentplaces">
+            <h2>Recently visited</h2>
+            <ul id="placeslist">
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="all-details">
+            <h2>Details</h2>
+            <p>
+              Country: <span class="printCountry"></span>
+            </p>
+            <p>
+              City: <span class="printCity"></span>
+            </p>
+            <p>
+              Location: <span class="printLocation"></span>
+            </p>
+            <p>
+              Date: <span class="printDate"></span>
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  </body>
+</html>

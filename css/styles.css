@@ -1,0 +1,10 @@
+.list{
+  cursor: pointer;
+  color: blue;
+}
+.list:hover{
+  text-decoration: underline;
+}
+#all-details{
+  display: none;
+}
